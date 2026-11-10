@@ -5,147 +5,44 @@ const { execFile } = require("child_process");
 // NVIDIA API CALL
 // ===============================
 
-const callNvidia = (prompt) => {
-  return new Promise((resolve, reject) => {
-
-    const body = JSON.stringify({
-      model: "openai/gpt-oss-20b",
-
-      messages: [
-        {
-          role: "user",
-          content: prompt
-        }
-      ],
-
-      temperature: 0.2,
-      max_tokens: 500,
-      stream: false
-    });
-
-
-    console.log(
-      "NVIDIA KEY AVAILABLE:",
-      !!process.env.NVIDIA_API_KEY,
-      "LENGTH:",
-      process.env.NVIDIA_API_KEY
-        ? process.env.NVIDIA_API_KEY.length
-        : 0
-    );
-
-
-    execFile(
-      "curl.exe",
-
-      [
-        "https://integrate.api.nvidia.com/v1/chat/completions",
-
-        "-H",
-        "Content-Type: application/json",
-
-        "-H",
-        `Authorization: Bearer ${process.env.NVIDIA_API_KEY}`,
-
-        "--data-binary",
-        body,
-
-        "--connect-timeout",
-        "10",
-
-        "--max-time",
-        "90"
-      ],
-
-      {
-        maxBuffer: 1024 * 1024
+const callNvidia = async (prompt) => {
+  const response = await fetch(
+    "https://integrate.api.nvidia.com/v1/chat/completions",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${process.env.NVIDIA_API_KEY}`
       },
-
-      (error, stdout, stderr) => {
-
-        // ===============================
-        // CURL ERROR
-        // ===============================
-
-        if (error) {
-
-          console.error(
-            "NVIDIA CURL ERROR:",
-            error.message
-          );
-
-          console.error(
-            "NVIDIA CURL STDERR:",
-            stderr
-          );
-
-          reject(error);
-          return;
-        }
-
-
-        // ===============================
-        // PARSE NVIDIA RESPONSE
-        // ===============================
-
-        try {
-
-          const data = JSON.parse(stdout);
-
-
-          console.log(
-            "NVIDIA RAW RESPONSE:",
-            JSON.stringify(data, null, 2)
-          );
-
-
-          // NVIDIA API returned an error
-          if (data.error) {
-
-            reject(
-              new Error(
-                `NVIDIA API error: ${
-                  data.error.message ||
-                  JSON.stringify(data.error)
-                }`
-              )
-            );
-
-            return;
+      body: JSON.stringify({
+        model: "openai/gpt-oss-20b",
+        messages: [
+          {
+            role: "user",
+            content: prompt
           }
+        ],
+        temperature: 0.2,
+        max_tokens: 500,
+        stream: false
+      }),
+      signal: AbortSignal.timeout(90000)
+    }
+  );
 
+  const data = await response.json();
 
-          // No choices returned
-          if (
-            !data.choices ||
-            !data.choices[0]
-          ) {
-
-            reject(
-              new Error(
-                "NVIDIA response did not contain choices."
-              )
-            );
-
-            return;
-          }
-
-
-          resolve(data);
-
-        } catch (err) {
-
-          reject(
-            new Error(
-              `Invalid NVIDIA response: ${stdout}`
-            )
-          );
-
-        }
-
-      }
+  if (!response.ok || data.error) {
+    throw new Error(
+      data.error?.message || `NVIDIA API error: ${response.status}`
     );
+  }
 
-  });
+  if (!data.choices || !data.choices[0]) {
+    throw new Error("NVIDIA response did not contain choices.");
+  }
+
+  return data;
 };
 
 

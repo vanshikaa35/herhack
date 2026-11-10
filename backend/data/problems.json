@@ -1639,5 +1639,23 @@
     "humanReview": false,
     "status": "assigned",
     "createdAt": "2026-11-10T13:01:46.440Z"
+  },
+  {
+    "id": "1794318159820",
+    "description": "water logging",
+    "location": "ranchi, jahrkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "water logging",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-11-10T13:42:39.821Z"
   }
 ]

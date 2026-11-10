@@ -1,103 +1,398 @@
-# Sujh Bujh
+# Sujh Bujh — AI-Powered Civic Problem Solving Platform
 
-A React + Vite + Tailwind frontend for the Jharkhand societal-challenge
-crowdsourcing portal. Pastel base palette with a marigold "pop" accent used
-only for actions, AI moments, and status.
+**Turning citizens' problems into actionable solutions through Artificial Intelligence.**
 
-## 1. Run it locally
+Sujh Bujh is an AI-powered civic innovation platform designed to bridge the gap between citizens reporting societal problems and institutions capable of solving them.
+
+The platform allows citizens to report local problems in their own words. Using AI-powered analysis, it categorises complaints, detects potentially duplicate reports, identifies relevant institutions and recommends solutions based on existing research and successful implementations.
+
+Our goal is to make civic problem-solving more organised, intelligent and collaborative.
+
+---
+
+## Problem Statement
+
+Citizens frequently encounter problems related to water supply, sanitation, waste management, education, healthcare and public infrastructure.
+
+However, these problems often remain unresolved because:
+
+- Citizens do not know which institution is responsible for addressing their concerns.
+- Similar complaints are reported repeatedly without being consolidated.
+- Relevant research and existing solutions are difficult to discover.
+- Institutions lack an organised way to identify and prioritise reported problems.
+
+Sujh Bujh aims to address these challenges through an intelligent, AI-assisted civic problem-solving system.
+
+## Our Solution
+
+Sujh Bujh creates a structured connection between citizens, civic problems and institutions.
+
+The platform follows an intelligent workflow:
+
+1. **Problem Submission:** Citizens submit a description of their problem along with its location.
+2. **AI-Powered Classification:** AI analyses the complaint and identifies its most relevant category.
+3. **Duplicate Detection:** The system checks whether a similar problem has already been reported.
+4. **Institution Routing:** The complaint is matched with a relevant college or institution based on its category, location and available expertise.
+5. **Solution Recommendations:** Relevant research-backed solutions and implementation examples are suggested.
+6. **Human Review:** Complaints with low AI confidence are flagged for manual review.
+7. **Dashboard Monitoring:** Submitted complaints and their statuses can be monitored through a centralised dashboard.
+
+## Key Features
+
+### 1. AI-Powered Complaint Classification
+- Analyses natural-language complaint descriptions.
+- Supports English, Hindi, Hinglish and mixed-language inputs.
+- Identifies the most relevant predefined problem category.
+- Provides an AI-generated summary and confidence score.
+
+### 2. Intelligent Duplicate Detection
+- Identifies potentially similar complaints.
+- Helps consolidate repeated reports.
+- Tracks duplicate counts against original complaints.
+
+### 3. Smart Institution Routing
+- Matches complaints with relevant institutions.
+- Considers problem categories, location and institutional expertise.
+- Provides an explanation for the routing decision.
+
+### 4. Research-Backed Solution Recommendations
+- Identifies relevant existing solutions.
+- Connects problems with implementation examples.
+- Provides information about outcomes, implementers and sources.
+
+### 5. Human-in-the-Loop Review
+- Flags complaints with low AI classification confidence.
+- Prevents uncertain classifications from being automatically routed.
+- Maintains a separate under-review status.
+
+### 6. Civic Dashboard
+- Displays total submitted complaints.
+- Tracks assigned, under-review and resolved problems.
+- Provides category-wise statistics.
+- Displays recent complaint submissions.
+
+---
+
+## Technology Stack
+
+| Component | Technologies |
+|---|---|
+| Frontend | React.js, Vite |
+| Styling | Tailwind CSS |
+| Routing | React Router |
+| Icons | Lucide React |
+| Backend | Node.js, Express.js |
+| AI Integration | NVIDIA API |
+| AI Model | OpenAI GPT-OSS-20B (through NVIDIA API) |
+| Data Storage | JSON-based file storage |
+| API Communication | REST APIs |
+
+## System Architecture
+
+```text
+             CITIZEN
+                |
+                v
+       React.js Frontend
+                |
+                v
+       Complaint Submission
+                |
+                v
+       Node.js + Express API
+                |
+                v
+       AI-Powered Analysis
+          (NVIDIA API)
+                |
+                v
+       Complaint Classification
+                |
+          +-----+------+
+          |            |
+          v            v
+     Duplicate      Confidence
+     Detection        Check
+          |            |
+          |       +----+----+
+          |       |         |
+          |       v         v
+          |   Automatic   Human
+          |    Routing    Review
+          |       |
+          |       v
+          |  Institution
+          |    Matching
+          |       |
+          |       v
+          |  Solution
+          | Recommendations
+          |       |
+          +---+---+
+              |
+              v
+        JSON Data Storage
+              |
+              v
+       Civic Dashboard
+```
+
+## Project Structure
+
+```text
+Jharkhand-main/
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── controllers/
+│   │   └── problemController.js
+│   │
+│   ├── data/
+│   │   ├── colleges.json
+│   │   ├── institutions.json
+│   │   ├── links.json
+│   │   ├── problems.json
+│   │   ├── quantifiers.json
+│   │   ├── researchproblems.json
+│   │   └── solutions.json
+│   │
+│   ├── routes/
+│   │   └── problemRoutes.js
+│   │
+│   ├── services/
+│   │   ├── aiService.js
+│   │   ├── duplicateService.js
+│   │   └── routingService.js
+│   │
+│   ├── package.json
+│   ├── server.js
+│   └── .env
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── data/
+│   │   ├── pages/
+│   │   │   ├── Landing.jsx
+│   │   │   ├── Submit.jsx
+│   │   │   ├── RoutingResult.jsx
+│   │   │   └── Dashboard.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   └── aiRouter.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+```
+
+## Installation & Setup
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js (LTS version)
+- npm
+- Git
+- NVIDIA API key
+
+### 1. Clone the Repository
+
+```bash
+git clone <https://github.com/vanshikaa35/herhack.git>
+```
+
+Navigate into the project directory:
+
+```bash
+cd Jharkhand-main
+```
+
+### 2. Configure the Backend
+
+Navigate to the backend directory:
+
+```bash
+cd backend
+```
+
+Install the dependencies:
 
 ```bash
 npm install
+```
+
+Create a `.env` file inside the backend folder:
+
+```env
+NVIDIA_API_KEY=your_nvidia_api_key
+PORT=5000
+```
+
+Get your NVIDIA API key from:
+
+https://build.nvidia.com/
+
+### 3. Start the Backend Server
+
+Run:
+
+```bash
 npm run dev
 ```
 
-Open the URL it prints (usually `http://localhost:5173`).
+The backend server will start at:
 
-## 2. Folder structure
-
-```
-src/
-  components/     Navbar, Footer, Button, Tag — reused across all pages
-  pages/          One file per screen (see below)
-  data/           Mock college dataset + category list — replace with real data later
-  services/       aiRouter.js — the ONE file to swap for a real backend call
-  index.css       Fonts, base styles — color tokens live in tailwind.config.js
-tailwind.config.js  Color palette, fonts, border-radius tokens — change the
-                    look of the whole app from this one file
+```text
+http://localhost:5000
 ```
 
-## 3. Pages built (4 screens = your 1–2 day frontend scope)
+To verify that the backend is running, open:
 
-| Route | File | What it does |
-|---|---|---|
-| `/` | `pages/Landing.jsx` | Hero + "how it works" module cards + CTA |
-| `/submit` | `pages/Submit.jsx` | Citizen submission form (text, location, photo) |
-| `/routing-result` | `pages/RoutingResult.jsx` | **The demo centerpiece.** Shows AI category, confidence, duplicate detection, and which college it routed to |
-| `/dashboard` | `pages/Dashboard.jsx` | Stat cards + district bar chart (mock data) |
+```text
+http://localhost:5000/
+```
 
-The submission flow is already wired end to end:
-`Submit.jsx` → calls `categorizeComplaint()` in `services/aiRouter.js` →
-navigates to `/routing-result` with the AI output.
+Expected response:
 
-## 4. How the "AI" works right now (and how to make it real)
-
-`src/services/aiRouter.js` currently uses simple keyword matching so the
-whole flow works standalone with zero backend. **This is the only file your
-ML/backend person needs to touch.** Keep the function name and return
-shape the same:
-
-```js
-categorizeComplaint(text) => {
-  category: string,
-  confidence: number,      // 0–1
-  matches: College[],      // top 3 matching colleges
-  duplicates: Complaint[], // similar existing reports
-  needsReview: boolean,    // true if confidence < 0.6
+```json
+{
+  "message": "Jharkhand Civic Innovation API is running!"
 }
 ```
 
-Swap the inside of that function for a `fetch()` call to your Node/Express
-backend (which itself calls the Claude/OpenAI API with a categorization +
-routing prompt). Nothing in the UI needs to change.
+### 4. Configure the Frontend
 
-## 5. What's mock data right now
+Open a second terminal and navigate to the frontend directory:
 
-- `src/data/colleges.js` — fake Jharkhand HEI expertise dataset (whoever's
-  less technical on the team can flesh this out with real departments)
-- `RoutingResult.jsx`'s `duplicates` — simulated "recent complaints" list
-  inside `aiRouter.js`, replace with a real DB query later
-- `Dashboard.jsx` — hardcoded stats, replace with real API data once the
-  backend has aggregation endpoints
+```bash
+cd frontend
+```
 
-## 6. Two-day build plan for your team
+Install dependencies:
 
-**Day 1 (today):**
-1. `npm install && npm run dev` — get everyone running it locally
-2. Split by file, not by "frontend vs backend" — one person owns
-   `Submit.jsx` + form validation, one owns `RoutingResult.jsx` styling
-   polish, one starts on the backend that will replace `aiRouter.js`
-3. Fill in real Jharkhand college data in `data/colleges.js`
+```bash
+npm install
+```
 
-**Day 2:**
-1. Wire `aiRouter.js` to the real backend once it exists
-2. Add a loading/empty state on `/dashboard` if real data isn't ready in
-   time — mock data is fine to demo with, just say so honestly if asked
-3. Deploy: `npm run build`, push to GitHub, connect the repo on Vercel
-   (auto-detects Vite) — takes about 2 minutes
+### 5. Start the Frontend
 
-## 7. Design tokens (change the whole look from here)
+Run:
 
-All colors, fonts, and the "blob" border-radius live in `tailwind.config.js`.
-Current palette:
+```bash
+npm run dev
+```
 
-- `sage` (#EAF3EA) — page background
-- `cream` (#FBF8F2) — card background
-- `ink` (#1E3A32) — text
-- `marigold` (#F2994A) — the ONE pop color, used only for primary buttons,
-  the AI sparkle icon, and highlighted states — keep it rare so it stays
-  effective
-- `sky` (#D7E6ED) / `blush` (#F4DCE4) — secondary tag colors for
-  categories/locations
+The frontend will be available at:
 
-Fonts: Fraunces (headlines, `font-display`) + Manrope (body, `font-body`),
-loaded via Google Fonts in `index.css`.
+```text
+http://localhost:5173/
+```
+
+Open the URL in your browser to access Sujh Bujh.
+
+**Note:** Keep both frontend and backend terminals running simultaneously. The NVIDIA API integration also requires a valid API key. The current backend AI service uses `curl.exe` to make API requests, so Windows with curl available is the supported setup for this version.
+
+---
+
+## 🔗 API Endpoints
+
+The backend exposes REST API endpoints under `/api/problems`.
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/problems` | Submit and analyse a new complaint |
+| GET | `/api/problems` | Retrieve all complaints |
+| GET | `/api/problems/stats` | Retrieve complaint statistics |
+| GET | `/api/problems/:id` | Retrieve a complaint by ID |
+| PATCH | `/api/problems/:id/status` | Update complaint status |
+
+### Example: Submit a Complaint
+
+**POST** `/api/problems`
+
+Request body:
+
+```json
+{
+  "description": "There has been no water supply in our area for five days.",
+  "location": "Ranchi, Ward 4"
+}
+```
+
+The backend processes the complaint and returns its classification, confidence score, duplicate information, institution assignment, recommended solutions and current status.
+
+---
+
+## AI Workflow
+
+The AI-powered backend consists of three major services:
+
+**1. AI Analysis — `aiService.js`**
+
+Uses the NVIDIA API and GPT-OSS-20B model to analyse citizen complaints, determine their categories, generate summaries and calculate classification confidence.
+
+**2. Duplicate Detection — `duplicateService.js`**
+
+Checks incoming complaints against previously submitted reports to identify potentially repeated problems.
+
+**3. Institution & Solution Routing — `routingService.js`**
+
+Uses available institutional datasets, category information and research-backed solutions to identify relevant institutions and recommend possible interventions.
+
+The system also incorporates a human-review mechanism when the AI classification confidence falls below the configured threshold of 0.65.
+
+---
+
+## Future Scope
+
+We envision expanding Sujh Bujh into a more comprehensive civic innovation ecosystem.
+
+Potential future improvements include:
+
+- **Multilingual Voice Reporting:** Allow citizens to report problems through voice input in regional languages.
+- **Geolocation Integration:** Automatically identify the location of reported problems.
+- **Image-Based Problem Detection:** Use computer vision to analyse uploaded photographs.
+- **Advanced Analytics:** Identify recurring civic issues and geographical problem hotspots.
+- **Institutional Collaboration:** Enable institutions to accept, manage and update assigned problems.
+- **Real-Time Notifications:** Notify citizens about complaint progress and resolution.
+- **Scalable Database:** Migrate from JSON-based storage to a production-ready database.
+- **Deployment:** Make the platform accessible to citizens and institutions across Jharkhand.
+
+---
+
+## Expected Impact
+
+Sujh Bujh aims to:
+
+- Make civic problem reporting more accessible.
+- Reduce repetitive and unorganised complaint submissions.
+- Connect societal challenges with institutions that have relevant expertise.
+- Encourage research-driven and practical solutions.
+- Promote collaboration between citizens, educational institutions and local authorities.
+
+**We believe that every problem deserves to be heard, understood and connected to a possible solution.**
+
+---
+
+## 👥 Team
+
+**Project:** Sujh Bujh  
+**Domain:** AI for Social Good | Civic Innovation | Smart Governance  
+**Focus:** Jharkhand, India
+
+---
+
+*Built with the vision of transforming civic complaints into meaningful action.* 
