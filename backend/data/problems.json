@@ -1,0 +1,1643 @@
+[
+  {
+    "id": "1788799006550",
+    "description": "Hamare ward mein 5 din se paani nahi aa raha hai aur log tanker se paani khareed rahe hain.",
+    "location": "Ranchi, Ward 4",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Hamare ward mein 5 din se paani nahi aa raha hai aur log tanker se paani khareed rahe hain.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "routingReason": "BIT Mesra was selected because its expertise matches the Other domain.",
+    "humanReview": true,
+    "status": "solved",
+    "createdAt": "2026-09-07T16:36:46.550Z",
+    "updatedAt": "2026-09-13T18:57:43.312Z"
+  },
+  {
+    "id": "1788888209082",
+    "description": "There has been no water supply in Ward 4 for the past few days.",
+    "location": "Ranchi, Ward 4",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "There has been no water supply in Ward 4 for the past few days.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 1,
+    "assignedCollege": null,
+    "routingReason": "BIT Mesra was selected because its expertise matches the Other domain.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-08T17:23:29.083Z"
+  },
+  {
+    "id": "1788888368026",
+    "description": "There has been no water supply in our ward for 5 days and people are having to buy water from tankers.",
+    "location": "Ranchi, Ward 4",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "There has been no water supply in our ward for 5 days and people are having to buy water from tanker",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "routingReason": "Selected because BIT Mesra has expertise in engineering and is located in Ranchi.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-08T17:26:08.026Z"
+  },
+  {
+    "id": "1788888397963",
+    "description": "The roads in our area are badly damaged and full of potholes, making transportation difficult.",
+    "location": "Jamshedpur",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "The roads in our area are badly damaged and full of potholes, making transportation difficult.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 1,
+    "assignedCollege": null,
+    "routingReason": "Selected because BIT Mesra has expertise in engineering and is located in Ranchi.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-08T17:26:37.963Z"
+  },
+  {
+    "id": "1788888527826",
+    "description": "The roads in our area are badly damaged and full of potholes, making transportation difficult.",
+    "location": "Jamshedpur",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "The roads in our area are badly damaged and full of potholes, making transportation difficult.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "routingReason": "Selected because BIT Mesra has expertise in engineering and is located in Ranchi.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-08T17:28:47.826Z"
+  },
+  {
+    "id": "1789150473055",
+    "description": "The roads in our area are badly damaged and full of potholes, making transportation difficult.",
+    "location": "Jamshedpur",
+    "imageUrl": null,
+    "category": "Roads & Transport",
+    "summary": "Roads in the area are badly damaged with potholes, causing transportation difficulties.",
+    "confidence": 1,
+    "duplicateFound": true,
+    "duplicateOf": "1788888397963",
+    "duplicateCount": 0,
+    "assignedCollege": "NIT Jamshedpur",
+    "routingReason": "Selected because NIT Jamshedpur has expertise in engineering, transportation, infrastructure and is located in Jamshedpur.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-11T18:14:33.055Z"
+  },
+  {
+    "id": "1789197029121",
+    "description": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegetable cultivation.",
+    "location": "Ranchi",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegeta",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 7,
+    "assignedCollege": null,
+    "routingReason": "Selected because Central University of Jharkhand (CUJ) has relevant expertise in environment and is located in Ranchi.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-12T07:10:29.121Z"
+  },
+  {
+    "id": "1789197279807",
+    "description": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegetable cultivation.",
+    "location": "Ranchi",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegeta",
+    "confidence": 0.2,
+    "duplicateFound": true,
+    "duplicateOf": "1789197029121",
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "routingReason": "Selected because Central University of Jharkhand (CUJ) has relevant expertise in environment and is located in Ranchi.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-12T07:14:39.807Z"
+  },
+  {
+    "id": "1789197989645",
+    "description": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegetable cultivation.",
+    "location": "Ranchi",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegeta",
+    "confidence": 0.2,
+    "duplicateFound": true,
+    "duplicateOf": "1789197029121",
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "routingReason": "Selected because Central University of Jharkhand (CUJ) has relevant expertise in environment and is located in Ranchi.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-12T07:26:29.645Z"
+  },
+  {
+    "id": "1789207594223",
+    "description": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegetable cultivation.",
+    "location": "Ranchi",
+    "imageUrl": null,
+    "category": "Water",
+    "summary": "Farmers in Ranchi village face severe irrigation water shortage, impacting vegetable cultivation.",
+    "confidence": 0.95,
+    "duplicateFound": true,
+    "duplicateOf": "1789197029121",
+    "duplicateCount": 0,
+    "assignedCollege": "Central University of Jharkhand (CUJ)",
+    "routingReason": "Selected because Central University of Jharkhand (CUJ) has relevant expertise in environment and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-12T10:06:34.223Z"
+  },
+  {
+    "id": "1789209455305",
+    "description": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegetable cultivation.",
+    "location": "Ranchi",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegeta",
+    "confidence": 0.2,
+    "duplicateFound": true,
+    "duplicateOf": "1789197029121",
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "routingReason": "Selected because Central University of Jharkhand (CUJ) has relevant expertise in environment and is located in Ranchi.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-12T10:37:35.306Z"
+  },
+  {
+    "id": "1789209779251",
+    "description": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegetable cultivation.",
+    "location": "Ranchi",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers in our village are facing severe irrigation problems and do not have enough water for vegeta",
+    "confidence": 0.2,
+    "duplicateFound": true,
+    "duplicateOf": "1789197029121",
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "routingReason": "Selected because Central University of Jharkhand (CUJ) has relevant expertise in environment and is located in Ranchi.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-12T10:42:59.251Z"
+  },
+  {
+    "id": "1789235792038",
+    "description": "Our village farmers are losing crops because there is no proper irrigation system for the fields.",
+    "location": "Ranchi",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "Village farmers are losing crops due to lack of proper irrigation system for fields.",
+    "confidence": 1,
+    "duplicateFound": true,
+    "duplicateOf": "1789197029121",
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil-water, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-12T17:56:32.038Z"
+  },
+  {
+    "id": "1789238387498",
+    "description": "Farmers in our village do not have enough irrigation water and crop productivity is very low.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "农民缺乏灌溉用水，农作物产量低。",
+    "confidence": 1,
+    "duplicateFound": true,
+    "duplicateOf": "1789197029121",
+    "duplicateCount": 2,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil-water, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-12T18:39:47.498Z"
+  },
+  {
+    "id": "1789238482785",
+    "description": "Farmers in our village do not have enough irrigation water and crop productivity is very low.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "农民缺乏灌溉用水，农作物产量低。",
+    "confidence": 0.95,
+    "duplicateFound": true,
+    "duplicateOf": "1789238387498",
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil-water, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-12T18:41:22.785Z"
+  },
+  {
+    "id": "1789239280012",
+    "description": "Farmers in our village do not have enough irrigation water and crop productivity is very low.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "农民缺乏灌溉用水，农作物产量低。",
+    "confidence": 1,
+    "duplicateFound": true,
+    "duplicateOf": "1789238387498",
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "recommendedSolutions": [],
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil-water, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-12T18:54:40.012Z"
+  },
+  {
+    "id": "1789240020792",
+    "description": "Farmers in our village do not have enough irrigation water and crop productivity is very low.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers in our village do not have enough irrigation water and crop productivity is very low.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-12T19:07:00.792Z"
+  },
+  {
+    "id": "1789240756111",
+    "description": "Farmers in our village do not have enough irrigation water and crop productivity is very low.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "Farmers lack sufficient irrigation water, leading to low crop productivity.",
+    "confidence": 1,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "recommendedSolutions": [],
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil-water, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-12T19:19:16.111Z"
+  },
+  {
+    "id": "1789317250619",
+    "description": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 2,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-13T16:34:10.619Z"
+  },
+  {
+    "id": "1789317690198",
+    "description": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "农民缺乏用于蔬菜种植的灌溉水",
+    "confidence": 1,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "recommendedSolutions": [
+      {
+        "ID": "S002",
+        "Problem title": "Irrigation shortage for small farmers",
+        "Domain": "Agriculture",
+        "Solution title": "Micro drip irrigation (MDI) for vegetable cultivation",
+        "Where implemented": "Kanke & Ratu blocks, Ranchi district, Jharkhand",
+        "Implementer": "Birsa Agricultural University; JSLPS (JHIMDI / I-HIMDI project, JICA-funded)",
+        "Outcome (short, verified)": "Study of 200 farmers: cucumber & tomato most profitable under MDI; high post-harvest losses in tomato (~59%); water savings & higher productivity vs conventional irrigation reported in related BAU trials",
+        "Transferability": "High",
+        "Source": [
+          "https://krishikosh.egranth.ac.in/items/29a5240f-470b-4379-b586-198598f4a03e",
+          "https://www.academia.edu/90705990/Economics_of_Growing_Okra_under_Drip_Fertigation"
+        ]
+      },
+      {
+        "ID": "S005",
+        "Problem title": "Low productivity in rainfed areas",
+        "Domain": "Agriculture",
+        "Solution title": "Small rainwater harvesting ponds (doba) with supplemental irrigation",
+        "Where implemented": "Multiple rainfed villages, Jharkhand",
+        "Implementer": "Birsa Agricultural University + project partners",
+        "Outcome (short, verified)": "Documented increase in paddy yields from ~900 kg/acre to ~1,700 kg/acre in program villages; improved winter vegetable cultivation",
+        "Transferability": "High",
+        "Source": [
+          "https://news.climate.columbia.edu/2017/05/24/in-jharkhand-using-an-old-technique-for-sustainable-water/"
+        ]
+      },
+      {
+        "ID": "S009",
+        "Problem title": "Vegetable wastage & low income",
+        "Domain": "Agriculture",
+        "Solution title": "Solar dryers & cold storage for horticulture FPOs (JH-RESET)",
+        "Where implemented": "Coal-mining districts (e.g., Chatra, Koderma, Dhanbad belt)",
+        "Implementer": "State Horticulture Dept, JREDA, FPOs; funds from DMFT, SCF, ADP",
+        "Outcome (short, verified)": "20% reduction in food waste; ~30% increase in farmer wages in pilot; monthly income ↑ ₹3,000–4,000 per dryer; overall annual income increase for ~200 tomato farmers",
+        "Transferability": "Medium–High",
+        "Source": [
+          "https://thebetterindia.com/477315/jh-reset-inside-jharkhands-solar-powered-rural-economy-strategy/",
+          "https://climate.swaniti.com/home/programs/jharkhand/"
+        ]
+      }
+    ],
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T16:41:30.198Z"
+  },
+  {
+    "id": "1789318095044",
+    "description": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-13T16:48:15.044Z"
+  },
+  {
+    "id": "1789322331224",
+    "description": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "农民缺乏用于蔬菜种植的灌溉水",
+    "confidence": 1,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "recommendedSolutions": [
+      {
+        "ID": "S002",
+        "Problem title": "Irrigation shortage for small farmers",
+        "Domain": "Agriculture",
+        "Solution title": "Micro drip irrigation (MDI) for vegetable cultivation",
+        "Where implemented": "Kanke & Ratu blocks, Ranchi district, Jharkhand",
+        "Implementer": "Birsa Agricultural University; JSLPS (JHIMDI / I-HIMDI project, JICA-funded)",
+        "Outcome (short, verified)": "Study of 200 farmers: cucumber & tomato most profitable under MDI; high post-harvest losses in tomato (~59%); water savings & higher productivity vs conventional irrigation reported in related BAU trials",
+        "Transferability": "High",
+        "Source": [
+          "https://krishikosh.egranth.ac.in/items/29a5240f-470b-4379-b586-198598f4a03e",
+          "https://www.academia.edu/90705990/Economics_of_Growing_Okra_under_Drip_Fertigation"
+        ]
+      },
+      {
+        "ID": "S005",
+        "Problem title": "Low productivity in rainfed areas",
+        "Domain": "Agriculture",
+        "Solution title": "Small rainwater harvesting ponds (doba) with supplemental irrigation",
+        "Where implemented": "Multiple rainfed villages, Jharkhand",
+        "Implementer": "Birsa Agricultural University + project partners",
+        "Outcome (short, verified)": "Documented increase in paddy yields from ~900 kg/acre to ~1,700 kg/acre in program villages; improved winter vegetable cultivation",
+        "Transferability": "High",
+        "Source": [
+          "https://news.climate.columbia.edu/2017/05/24/in-jharkhand-using-an-old-technique-for-sustainable-water/"
+        ]
+      },
+      {
+        "ID": "S009",
+        "Problem title": "Vegetable wastage & low income",
+        "Domain": "Agriculture",
+        "Solution title": "Solar dryers & cold storage for horticulture FPOs (JH-RESET)",
+        "Where implemented": "Coal-mining districts (e.g., Chatra, Koderma, Dhanbad belt)",
+        "Implementer": "State Horticulture Dept, JREDA, FPOs; funds from DMFT, SCF, ADP",
+        "Outcome (short, verified)": "20% reduction in food waste; ~30% increase in farmer wages in pilot; monthly income ↑ ₹3,000–4,000 per dryer; overall annual income increase for ~200 tomato farmers",
+        "Transferability": "Medium–High",
+        "Source": [
+          "https://thebetterindia.com/477315/jh-reset-inside-jharkhands-solar-powered-rural-economy-strategy/",
+          "https://climate.swaniti.com/home/programs/jharkhand/"
+        ]
+      }
+    ],
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T17:58:51.224Z"
+  },
+  {
+    "id": "1789322522004",
+    "description": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-13T18:02:02.004Z"
+  },
+  {
+    "id": "1789322984812",
+    "description": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-13T18:09:44.812Z"
+  },
+  {
+    "id": "1789323608397",
+    "description": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "农民缺乏用于蔬菜种植的灌溉水",
+    "confidence": 1,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "recommendedSolutions": [
+      {
+        "ID": "S002",
+        "Problem title": "Irrigation shortage for small farmers",
+        "Domain": "Agriculture",
+        "Solution title": "Micro drip irrigation (MDI) for vegetable cultivation",
+        "Where implemented": "Kanke & Ratu blocks, Ranchi district, Jharkhand",
+        "Implementer": "Birsa Agricultural University; JSLPS (JHIMDI / I-HIMDI project, JICA-funded)",
+        "Outcome (short, verified)": "Study of 200 farmers: cucumber & tomato most profitable under MDI; high post-harvest losses in tomato (~59%); water savings & higher productivity vs conventional irrigation reported in related BAU trials",
+        "Transferability": "High",
+        "Source": [
+          "https://krishikosh.egranth.ac.in/items/29a5240f-470b-4379-b586-198598f4a03e",
+          "https://www.academia.edu/90705990/Economics_of_Growing_Okra_under_Drip_Fertigation"
+        ]
+      },
+      {
+        "ID": "S005",
+        "Problem title": "Low productivity in rainfed areas",
+        "Domain": "Agriculture",
+        "Solution title": "Small rainwater harvesting ponds (doba) with supplemental irrigation",
+        "Where implemented": "Multiple rainfed villages, Jharkhand",
+        "Implementer": "Birsa Agricultural University + project partners",
+        "Outcome (short, verified)": "Documented increase in paddy yields from ~900 kg/acre to ~1,700 kg/acre in program villages; improved winter vegetable cultivation",
+        "Transferability": "High",
+        "Source": [
+          "https://news.climate.columbia.edu/2017/05/24/in-jharkhand-using-an-old-technique-for-sustainable-water/"
+        ]
+      },
+      {
+        "ID": "S009",
+        "Problem title": "Vegetable wastage & low income",
+        "Domain": "Agriculture",
+        "Solution title": "Solar dryers & cold storage for horticulture FPOs (JH-RESET)",
+        "Where implemented": "Coal-mining districts (e.g., Chatra, Koderma, Dhanbad belt)",
+        "Implementer": "State Horticulture Dept, JREDA, FPOs; funds from DMFT, SCF, ADP",
+        "Outcome (short, verified)": "20% reduction in food waste; ~30% increase in farmer wages in pilot; monthly income ↑ ₹3,000–4,000 per dryer; overall annual income increase for ~200 tomato farmers",
+        "Transferability": "Medium–High",
+        "Source": [
+          "https://thebetterindia.com/477315/jh-reset-inside-jharkhands-solar-powered-rural-economy-strategy/",
+          "https://climate.swaniti.com/home/programs/jharkhand/"
+        ]
+      }
+    ],
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T18:20:08.397Z"
+  },
+  {
+    "id": "1789324139346",
+    "description": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "农民缺乏用于蔬菜种植的灌溉水",
+    "confidence": 1,
+    "duplicateFound": true,
+    "duplicateOf": "1789317250619",
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "recommendedSolutions": [
+      {
+        "ID": "S002",
+        "Problem title": "Irrigation shortage for small farmers",
+        "Domain": "Agriculture",
+        "Solution title": "Micro drip irrigation (MDI) for vegetable cultivation",
+        "Where implemented": "Kanke & Ratu blocks, Ranchi district, Jharkhand",
+        "Implementer": "Birsa Agricultural University; JSLPS (JHIMDI / I-HIMDI project, JICA-funded)",
+        "Outcome (short, verified)": "Study of 200 farmers: cucumber & tomato most profitable under MDI; high post-harvest losses in tomato (~59%); water savings & higher productivity vs conventional irrigation reported in related BAU trials",
+        "Transferability": "High",
+        "Source": [
+          "https://krishikosh.egranth.ac.in/items/29a5240f-470b-4379-b586-198598f4a03e",
+          "https://www.academia.edu/90705990/Economics_of_Growing_Okra_under_Drip_Fertigation"
+        ]
+      },
+      {
+        "ID": "S005",
+        "Problem title": "Low productivity in rainfed areas",
+        "Domain": "Agriculture",
+        "Solution title": "Small rainwater harvesting ponds (doba) with supplemental irrigation",
+        "Where implemented": "Multiple rainfed villages, Jharkhand",
+        "Implementer": "Birsa Agricultural University + project partners",
+        "Outcome (short, verified)": "Documented increase in paddy yields from ~900 kg/acre to ~1,700 kg/acre in program villages; improved winter vegetable cultivation",
+        "Transferability": "High",
+        "Source": [
+          "https://news.climate.columbia.edu/2017/05/24/in-jharkhand-using-an-old-technique-for-sustainable-water/"
+        ]
+      },
+      {
+        "ID": "S009",
+        "Problem title": "Vegetable wastage & low income",
+        "Domain": "Agriculture",
+        "Solution title": "Solar dryers & cold storage for horticulture FPOs (JH-RESET)",
+        "Where implemented": "Coal-mining districts (e.g., Chatra, Koderma, Dhanbad belt)",
+        "Implementer": "State Horticulture Dept, JREDA, FPOs; funds from DMFT, SCF, ADP",
+        "Outcome (short, verified)": "20% reduction in food waste; ~30% increase in farmer wages in pilot; monthly income ↑ ₹3,000–4,000 per dryer; overall annual income increase for ~200 tomato farmers",
+        "Transferability": "Medium–High",
+        "Source": [
+          "https://thebetterindia.com/477315/jh-reset-inside-jharkhands-solar-powered-rural-economy-strategy/",
+          "https://climate.swaniti.com/home/programs/jharkhand/"
+        ]
+      }
+    ],
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T18:28:59.346Z"
+  },
+  {
+    "id": "1789324291323",
+    "description": "Farmers in Ranchi are facing severe soil degradation and declining crop productivity.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "Farmers in Ranchi are facing severe soil degradation and declining crop productivity.",
+    "confidence": 0.85,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 1,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "recommendedSolutions": [
+      {
+        "ID": "S002",
+        "Problem title": "Irrigation shortage for small farmers",
+        "Domain": "Agriculture",
+        "Solution title": "Micro drip irrigation (MDI) for vegetable cultivation",
+        "Where implemented": "Kanke & Ratu blocks, Ranchi district, Jharkhand",
+        "Implementer": "Birsa Agricultural University; JSLPS (JHIMDI / I-HIMDI project, JICA-funded)",
+        "Outcome (short, verified)": "Study of 200 farmers: cucumber & tomato most profitable under MDI; high post-harvest losses in tomato (~59%); water savings & higher productivity vs conventional irrigation reported in related BAU trials",
+        "Transferability": "High",
+        "Source": [
+          "https://krishikosh.egranth.ac.in/items/29a5240f-470b-4379-b586-198598f4a03e",
+          "https://www.academia.edu/90705990/Economics_of_Growing_Okra_under_Drip_Fertigation"
+        ]
+      },
+      {
+        "ID": "S005",
+        "Problem title": "Low productivity in rainfed areas",
+        "Domain": "Agriculture",
+        "Solution title": "Small rainwater harvesting ponds (doba) with supplemental irrigation",
+        "Where implemented": "Multiple rainfed villages, Jharkhand",
+        "Implementer": "Birsa Agricultural University + project partners",
+        "Outcome (short, verified)": "Documented increase in paddy yields from ~900 kg/acre to ~1,700 kg/acre in program villages; improved winter vegetable cultivation",
+        "Transferability": "High",
+        "Source": [
+          "https://news.climate.columbia.edu/2017/05/24/in-jharkhand-using-an-old-technique-for-sustainable-water/"
+        ]
+      }
+    ],
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T18:31:31.325Z"
+  },
+  {
+    "id": "1789326091204",
+    "description": "Farmers in Ranchi are facing severe soil degradation and declining crop productivity.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "Farmers in Ranchi are facing severe soil degradation and declining crop productivity.",
+    "confidence": 0.85,
+    "duplicateFound": true,
+    "duplicateOf": "1789324291323",
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "recommendedSolutions": [
+      {
+        "ID": "S002",
+        "Problem title": "Irrigation shortage for small farmers",
+        "Domain": "Agriculture",
+        "Solution title": "Micro drip irrigation (MDI) for vegetable cultivation",
+        "Where implemented": "Kanke & Ratu blocks, Ranchi district, Jharkhand",
+        "Implementer": "Birsa Agricultural University; JSLPS (JHIMDI / I-HIMDI project, JICA-funded)",
+        "Outcome (short, verified)": "Study of 200 farmers: cucumber & tomato most profitable under MDI; high post-harvest losses in tomato (~59%); water savings & higher productivity vs conventional irrigation reported in related BAU trials",
+        "Transferability": "High",
+        "Source": [
+          "https://krishikosh.egranth.ac.in/items/29a5240f-470b-4379-b586-198598f4a03e",
+          "https://www.academia.edu/90705990/Economics_of_Growing_Okra_under_Drip_Fertigation"
+        ]
+      },
+      {
+        "ID": "S005",
+        "Problem title": "Low productivity in rainfed areas",
+        "Domain": "Agriculture",
+        "Solution title": "Small rainwater harvesting ponds (doba) with supplemental irrigation",
+        "Where implemented": "Multiple rainfed villages, Jharkhand",
+        "Implementer": "Birsa Agricultural University + project partners",
+        "Outcome (short, verified)": "Documented increase in paddy yields from ~900 kg/acre to ~1,700 kg/acre in program villages; improved winter vegetable cultivation",
+        "Transferability": "High",
+        "Source": [
+          "https://news.climate.columbia.edu/2017/05/24/in-jharkhand-using-an-old-technique-for-sustainable-water/"
+        ]
+      }
+    ],
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T19:01:31.204Z"
+  },
+  {
+    "id": "1789326181639",
+    "description": "Residents are getting contaminated drinking water from the village handpump.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Water",
+    "summary": "Residents are getting contaminated drinking water from the village handpump.",
+    "confidence": 1,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": "BIT Mesra",
+    "recommendedSolutions": [
+      {
+        "ID": "S010",
+        "Problem title": "Contaminated drinking water in settlements",
+        "Domain": "Water",
+        "Solution title": "Community-managed low-cost water filter (iron removal, potable water)",
+        "Where implemented": "Urban/peri-urban low-income settlement (India; concept transferable to Jharkhand towns)",
+        "Implementer": "Community organization + technical support; managed by local youth/children groups",
+        "Outcome (short, verified)": "Improved access to potable water at community scale; reduced iron & better taste/acceptance",
+        "Transferability": "Medium",
+        "Source": [
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ]
+      },
+      {
+        "ID": "S001",
+        "Problem title": "Rural drinking-water contamination",
+        "Domain": "Water",
+        "Solution title": "Community-scale water treatment / safe-water & hygiene intervention",
+        "Where implemented": "Rural & school settings in India (incl. Jharkhand-relevant contexts)",
+        "Implementer": "Govt/NGO/university partnerships (e.g., UNICEF, HUL, community orgs)",
+        "Outcome (short, verified)": "Improved drinking-water quality in schools/communities; mixed long-term household adoption without sustained support",
+        "Transferability": "Medium",
+        "Source": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/",
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ]
+      },
+      {
+        "ID": "S006",
+        "Problem title": "Unsafe drinking water in schools/households",
+        "Domain": "Water",
+        "Solution title": "School-based safe water & hygiene intervention (purifiers + education)",
+        "Where implemented": "Southern India pilot (concept transferable to Jharkhand schools)",
+        "Implementer": "UNICEF + Hindustan Unilever Limited",
+        "Outcome (short, verified)": "Increased awareness & some increase in purifier ownership; sustained household behavior change limited without ongoing engagement",
+        "Transferability": "Medium",
+        "Source": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/"
+        ]
+      }
+    ],
+    "routingReason": "Selected because BIT Mesra has relevant expertise in water, water quality, groundwater, wastewater and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T19:03:01.640Z"
+  },
+  {
+    "id": "1789326216548",
+    "description": "The village PHC does not have enough doctors and patients are unable to get specialist treatment.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Healthcare",
+    "summary": "村卫生中心（PHC）医生不足，患者无法获得专科治疗。",
+    "confidence": 1,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": "MRHRU, Namkum",
+    "recommendedSolutions": [
+      {
+        "ID": "S004",
+        "Problem title": "Limited access to specialist healthcare",
+        "Domain": "Healthcare",
+        "Solution title": "Digital dispensary / telemedicine at PHCs (JHDD)",
+        "Where implemented": "100 PHCs across 22 districts, Jharkhand",
+        "Implementer": "Govt of Jharkhand + Apollo Telehealth (PPP)",
+        "Outcome (short, verified)": ">170,000 teleconsultations in first ~6 months; later >300,000 over ~2.5 years; 63% patients with NCDs; 53% female beneficiaries",
+        "Transferability": "High",
+        "Source": [
+          "https://www.apollotelehealth.com/public-private-partnerships/jharkhand-digital-dispensary/",
+          "https://www.hindustantimes.com/ranchi/digital-dispensaries-treating-patients-in-jharkhand-s-doctor-less-villages/story-OwzK457wDjxqkpRwHCc1yK.html"
+        ]
+      },
+      {
+        "ID": "S008",
+        "Problem title": "Lack of specialist access; high travel burden",
+        "Domain": "Healthcare",
+        "Solution title": "Statewide telemedicine via HWCs (eSanjeevani AB-HWC)",
+        "Where implemented": "Jharkhand (statewide)",
+        "Implementer": "Govt of Jharkhand + national eSanjeevani platform; evaluated by Intelehealth",
+        "Outcome (short, verified)": "175,490 teleconsultations in evaluation period; ~21.6 km & ~₹941 saved/visit; 96.5% treatment compliance; 60% full + 25% partial recovery",
+        "Transferability": "High",
+        "Source": [
+          "https://intelehealth.org/strengthening-esanjeevani-telemedicine-services-in-jharkhand/",
+          "https://intelehealth.org/wp-content/uploads/2023/01/Summary_eSanjeevani-Impact-report.pdf"
+        ]
+      }
+    ],
+    "routingReason": "Selected because MRHRU, Namkum has relevant expertise in health, medicine, telemedicine and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T19:03:36.548Z"
+  },
+  {
+    "id": "1789326274722",
+    "description": "Our village school does not have enough teachers and students are missing regular classes.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Education",
+    "summary": "Our village school does not have enough teachers and students are missing regular classes.",
+    "confidence": 0.85,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": "NIT Jamshedpur",
+    "recommendedSolutions": [],
+    "routingReason": "Selected because NIT Jamshedpur has relevant expertise in learning and is located in Jamshedpur.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T19:04:34.723Z"
+  },
+  {
+    "id": "1789326328414",
+    "description": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "Farmers don't have enough irrigation water for vegetable cultivation.",
+    "confidence": 0.85,
+    "duplicateFound": true,
+    "duplicateOf": "1789317250619",
+    "duplicateCount": 0,
+    "assignedCollege": "Birsa Agricultural University (BAU)",
+    "recommendedSolutions": [
+      {
+        "ID": "S002",
+        "Problem title": "Irrigation shortage for small farmers",
+        "Domain": "Agriculture",
+        "Solution title": "Micro drip irrigation (MDI) for vegetable cultivation",
+        "Where implemented": "Kanke & Ratu blocks, Ranchi district, Jharkhand",
+        "Implementer": "Birsa Agricultural University; JSLPS (JHIMDI / I-HIMDI project, JICA-funded)",
+        "Outcome (short, verified)": "Study of 200 farmers: cucumber & tomato most profitable under MDI; high post-harvest losses in tomato (~59%); water savings & higher productivity vs conventional irrigation reported in related BAU trials",
+        "Transferability": "High",
+        "Source": [
+          "https://krishikosh.egranth.ac.in/items/29a5240f-470b-4379-b586-198598f4a03e",
+          "https://www.academia.edu/90705990/Economics_of_Growing_Okra_under_Drip_Fertigation"
+        ]
+      },
+      {
+        "ID": "S005",
+        "Problem title": "Low productivity in rainfed areas",
+        "Domain": "Agriculture",
+        "Solution title": "Small rainwater harvesting ponds (doba) with supplemental irrigation",
+        "Where implemented": "Multiple rainfed villages, Jharkhand",
+        "Implementer": "Birsa Agricultural University + project partners",
+        "Outcome (short, verified)": "Documented increase in paddy yields from ~900 kg/acre to ~1,700 kg/acre in program villages; improved winter vegetable cultivation",
+        "Transferability": "High",
+        "Source": [
+          "https://news.climate.columbia.edu/2017/05/24/in-jharkhand-using-an-old-technique-for-sustainable-water/"
+        ]
+      },
+      {
+        "ID": "S009",
+        "Problem title": "Vegetable wastage & low income",
+        "Domain": "Agriculture",
+        "Solution title": "Solar dryers & cold storage for horticulture FPOs (JH-RESET)",
+        "Where implemented": "Coal-mining districts (e.g., Chatra, Koderma, Dhanbad belt)",
+        "Implementer": "State Horticulture Dept, JREDA, FPOs; funds from DMFT, SCF, ADP",
+        "Outcome (short, verified)": "20% reduction in food waste; ~30% increase in farmer wages in pilot; monthly income ↑ ₹3,000–4,000 per dryer; overall annual income increase for ~200 tomato farmers",
+        "Transferability": "Medium–High",
+        "Source": [
+          "https://thebetterindia.com/477315/jh-reset-inside-jharkhands-solar-powered-rural-economy-strategy/",
+          "https://climate.swaniti.com/home/programs/jharkhand/"
+        ]
+      }
+    ],
+    "routingReason": "Selected because Birsa Agricultural University (BAU) has relevant expertise in irrigation, drip, rainwater harvesting, doba, soil, water conservation and is located in Ranchi.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-13T19:05:28.414Z"
+  },
+  {
+    "id": "1789408015211",
+    "description": "Hamare gaon ke handpump se peela aur ganda paani aa raha hai.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Water",
+    "summary": "Hamare gaon ke handpump se peela aur ganda paani aa raha hai.",
+    "confidence": 0.85,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [
+      {
+        "ID": "S001",
+        "Problem title": "Rural drinking-water contamination",
+        "Domain": "Water",
+        "Solution title": "Community-scale water treatment / safe-water & hygiene intervention",
+        "Where implemented": "Rural & school settings in India (incl. Jharkhand-relevant contexts)",
+        "Implementer": "Govt/NGO/university partnerships (e.g., UNICEF, HUL, community orgs)",
+        "Outcome (short, verified)": "Improved drinking-water quality in schools/communities; mixed long-term household adoption without sustained support",
+        "Transferability": "Medium",
+        "Source": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/",
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ]
+      },
+      {
+        "ID": "S006",
+        "Problem title": "Unsafe drinking water in schools/households",
+        "Domain": "Water",
+        "Solution title": "School-based safe water & hygiene intervention (purifiers + education)",
+        "Where implemented": "Southern India pilot (concept transferable to Jharkhand schools)",
+        "Implementer": "UNICEF + Hindustan Unilever Limited",
+        "Outcome (short, verified)": "Increased awareness & some increase in purifier ownership; sustained household behavior change limited without ongoing engagement",
+        "Transferability": "Medium",
+        "Source": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/"
+        ]
+      },
+      {
+        "ID": "S010",
+        "Problem title": "Contaminated drinking water in settlements",
+        "Domain": "Water",
+        "Solution title": "Community-managed low-cost water filter (iron removal, potable water)",
+        "Where implemented": "Urban/peri-urban low-income settlement (India; concept transferable to Jharkhand towns)",
+        "Implementer": "Community organization + technical support; managed by local youth/children groups",
+        "Outcome (short, verified)": "Improved access to potable water at community scale; reduced iron & better taste/acceptance",
+        "Transferability": "Medium",
+        "Source": [
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ]
+      }
+    ],
+    "routingReason": "Relevant solutions were found, but no suitable institution was found. Manual review required.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-14T17:46:55.211Z"
+  },
+  {
+    "id": "1789408342749",
+    "description": "Factory ke paas nadi mein pollution badh raha hai aur paani mein gandagi dikh rahi hai.",
+    "location": "Dhanbad, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Factory ke paas nadi mein pollution badh raha hai aur paani mein gandagi dikh rahi hai.",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 4,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-14T17:52:22.749Z"
+  },
+  {
+    "id": "1789408521948",
+    "description": "i cannot find my socks",
+    "location": "Dhanbad, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "i cannot find my socks",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-14T17:55:21.948Z"
+  },
+  {
+    "id": "1789408944460",
+    "description": "Factory ke paas nadi mein pollution badh raha hai aur paani mein gandagi dikh rahi hai.",
+    "location": "Dhanbad, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Factory ke paas nadi mein pollution badh raha hai aur paani mein gandagi dikh rahi hai.",
+    "confidence": 0.2,
+    "duplicateFound": true,
+    "duplicateOf": "1789408342749",
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-14T18:02:24.460Z"
+  },
+  {
+    "id": "1789409030543",
+    "description": "Factory ke paas nadi mein pollution badh raha hai aur paani mein gandagi dikh rahi hai.",
+    "location": "Dhanbad, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Factory ke paas nadi mein pollution badh raha hai aur paani mein gandagi dikh rahi hai.",
+    "confidence": 0.2,
+    "duplicateFound": true,
+    "duplicateOf": "1789408342749",
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-14T18:03:50.543Z"
+  },
+  {
+    "id": "1789410974886",
+    "description": "Factory ke paas nadi mein pollution badh raha hai aur paani mein gandagi dikh rahi hai.",
+    "location": "Dhanbad, Jharkhand",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "Factory ke paas nadi mein pollution badh raha hai aur paani mein gandagi dikh rahi hai.",
+    "confidence": 0.2,
+    "duplicateFound": true,
+    "duplicateOf": "1789408342749",
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-14T18:36:14.886Z"
+  },
+  {
+    "id": "1789413262982",
+    "description": "Factory ke paas nadi mein pollution badh raha hai aur paani mein gandagi dikh rahi hai.",
+    "location": "Dhanbad, Jharkhand",
+    "imageUrl": null,
+    "category": "Environment",
+    "summary": "A factory near the river is increasing pollution, causing dirty water in the river.",
+    "confidence": 0.95,
+    "duplicateFound": true,
+    "duplicateOf": "1789408342749",
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "No suitable institution or solution was found. Manual review required.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-14T19:14:22.983Z"
+  },
+  {
+    "id": "1789413336792",
+    "description": "Raat mein hamare area ki sadak par street lights nahi hain aur mahilaon ko unsafe feel hota hai.",
+    "location": "Ranchi, Jharkhand",
+    "imageUrl": null,
+    "category": "Public Safety",
+    "summary": "No street lights at night on the local road, making women feel unsafe.",
+    "confidence": 0.95,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "No suitable institution or solution was found. Manual review required.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-14T19:15:36.792Z"
+  },
+  {
+    "id": "1789415900516",
+    "description": "Farmers in our village are unable to grow vegetables because there is not enough irrigation water.",
+    "location": "Ranchi",
+    "imageUrl": null,
+    "category": "Agriculture",
+    "summary": "Farmers cannot grow vegetables in the village due to insufficient irrigation water.",
+    "confidence": 0.92,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [
+      {
+        "ID": "S002",
+        "Problem title": "Irrigation shortage for small farmers",
+        "Domain": "Agriculture",
+        "Solution title": "Micro drip irrigation (MDI) for vegetable cultivation",
+        "Where implemented": "Kanke & Ratu blocks, Ranchi district, Jharkhand",
+        "Implementer": "Birsa Agricultural University; JSLPS (JHIMDI / I-HIMDI project, JICA-funded)",
+        "Outcome (short, verified)": "Study of 200 farmers: cucumber & tomato most profitable under MDI; high post-harvest losses in tomato (~59%); water savings & higher productivity vs conventional irrigation reported in related BAU trials",
+        "Transferability": "High",
+        "Source": [
+          "https://krishikosh.egranth.ac.in/items/29a5240f-470b-4379-b586-198598f4a03e",
+          "https://www.academia.edu/90705990/Economics_of_Growing_Okra_under_Drip_Fertigation"
+        ]
+      },
+      {
+        "ID": "S005",
+        "Problem title": "Low productivity in rainfed areas",
+        "Domain": "Agriculture",
+        "Solution title": "Small rainwater harvesting ponds (doba) with supplemental irrigation",
+        "Where implemented": "Multiple rainfed villages, Jharkhand",
+        "Implementer": "Birsa Agricultural University + project partners",
+        "Outcome (short, verified)": "Documented increase in paddy yields from ~900 kg/acre to ~1,700 kg/acre in program villages; improved winter vegetable cultivation",
+        "Transferability": "High",
+        "Source": [
+          "https://news.climate.columbia.edu/2017/05/24/in-jharkhand-using-an-old-technique-for-sustainable-water/"
+        ]
+      },
+      {
+        "ID": "S009",
+        "Problem title": "Vegetable wastage & low income",
+        "Domain": "Agriculture",
+        "Solution title": "Solar dryers & cold storage for horticulture FPOs (JH-RESET)",
+        "Where implemented": "Coal-mining districts (e.g., Chatra, Koderma, Dhanbad belt)",
+        "Implementer": "State Horticulture Dept, JREDA, FPOs; funds from DMFT, SCF, ADP",
+        "Outcome (short, verified)": "20% reduction in food waste; ~30% increase in farmer wages in pilot; monthly income ↑ ₹3,000–4,000 per dryer; overall annual income increase for ~200 tomato farmers",
+        "Transferability": "Medium–High",
+        "Source": [
+          "https://thebetterindia.com/477315/jh-reset-inside-jharkhands-solar-powered-rural-economy-strategy/",
+          "https://climate.swaniti.com/home/programs/jharkhand/"
+        ]
+      }
+    ],
+    "routingReason": "Relevant solutions were found, but no suitable institution was found. Manual review required.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-14T19:58:20.516Z"
+  },
+  {
+    "id": "1789416603422",
+    "description": "People in our village do not have safe drinking water and the handpump water is contaminated.",
+    "location": "Palamu",
+    "imageUrl": null,
+    "category": "Water",
+    "summary": "Village residents lack safe drinking water; the handpump water is contaminated.",
+    "confidence": 0.95,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [
+      {
+        "ID": "S001",
+        "Problem title": "Rural drinking-water contamination",
+        "Domain": "Water",
+        "Solution title": "Community-scale water treatment / safe-water & hygiene intervention",
+        "Where implemented": "Rural & school settings in India (incl. Jharkhand-relevant contexts)",
+        "Implementer": "Govt/NGO/university partnerships (e.g., UNICEF, HUL, community orgs)",
+        "Outcome (short, verified)": "Improved drinking-water quality in schools/communities; mixed long-term household adoption without sustained support",
+        "Transferability": "Medium",
+        "Source": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/",
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ]
+      },
+      {
+        "ID": "S010",
+        "Problem title": "Contaminated drinking water in settlements",
+        "Domain": "Water",
+        "Solution title": "Community-managed low-cost water filter (iron removal, potable water)",
+        "Where implemented": "Urban/peri-urban low-income settlement (India; concept transferable to Jharkhand towns)",
+        "Implementer": "Community organization + technical support; managed by local youth/children groups",
+        "Outcome (short, verified)": "Improved access to potable water at community scale; reduced iron & better taste/acceptance",
+        "Transferability": "Medium",
+        "Source": [
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ]
+      },
+      {
+        "ID": "S006",
+        "Problem title": "Unsafe drinking water in schools/households",
+        "Domain": "Water",
+        "Solution title": "School-based safe water & hygiene intervention (purifiers + education)",
+        "Where implemented": "Southern India pilot (concept transferable to Jharkhand schools)",
+        "Implementer": "UNICEF + Hindustan Unilever Limited",
+        "Outcome (short, verified)": "Increased awareness & some increase in purifier ownership; sustained household behavior change limited without ongoing engagement",
+        "Transferability": "Medium",
+        "Source": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/"
+        ]
+      }
+    ],
+    "routingReason": "Relevant solutions were found, but no suitable institution was found. Manual review required.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-14T20:10:03.422Z"
+  },
+  {
+    "id": "1789416885464",
+    "description": "A factory is dumping chemical waste into the river and the river water is becoming polluted.",
+    "location": "Dhanbad",
+    "imageUrl": null,
+    "category": "Environment",
+    "summary": "A factory is dumping chemical waste into a river, causing the river water to become polluted.",
+    "confidence": 0.95,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "No suitable institution or solution was found. Manual review required.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-14T20:14:45.464Z"
+  },
+  {
+    "id": "1789416911088",
+    "description": "The main road in our area is full of potholes and accidents are happening frequently.",
+    "location": "Jamshedpur",
+    "imageUrl": null,
+    "category": "Roads & Transport",
+    "summary": "The main road in the area is heavily pitted, leading to frequent accidents.",
+    "confidence": 0.95,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "No suitable institution or solution was found. Manual review required.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-14T20:15:11.088Z"
+  },
+  {
+    "id": "1789458656036",
+    "description": "Humare area main raat ko roz choriyan hoti hai.",
+    "location": "Jamshedpur",
+    "imageUrl": null,
+    "category": "Public Safety",
+    "summary": "Residents report nightly thefts occurring in their area.",
+    "confidence": 0.95,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 1,
+    "assignedCollege": "Delhi Police",
+    "recommendedSolutions": [],
+    "routingReason": "Selected Delhi Police because it is linked to the relevant Public Safety solution/problem: Crime hotspots, CCTV surveillance networks.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-15T07:50:56.036Z"
+  },
+  {
+    "id": "1789459878689",
+    "description": "Humare area main roz choriyan hoti hai.",
+    "location": "Jamshedpur",
+    "imageUrl": null,
+    "category": "Public Safety",
+    "summary": "The area experiences daily thefts.",
+    "confidence": 0.95,
+    "duplicateFound": true,
+    "duplicateOf": "1789458656036",
+    "duplicateCount": 0,
+    "assignedCollege": "Jharkhand Police",
+    "recommendedSolutions": [],
+    "routingReason": "Selected Jharkhand Police because it is linked to the relevant Public Safety solution/problem: Crime hotspots in urban areas, CCTV surveillance networks.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-15T08:11:18.689Z"
+  },
+  {
+    "id": "1789467702301",
+    "description": "no water supply in our area from last 5 days ",
+    "location": "ranchi, ward 4",
+    "imageUrl": null,
+    "category": "Water",
+    "summary": "no water supply in our area from last 5 days ",
+    "confidence": 0.85,
+    "duplicateFound": true,
+    "duplicateOf": "1788888209082",
+    "duplicateCount": 3,
+    "assignedCollege": "State Water and Sanitation Mission (SWSM) Jharkhand",
+    "recommendedSolutions": [
+      {
+        "id": "S010",
+        "problemTitle": "Contaminated drinking water in settlements",
+        "solutionTitle": "Community-managed low-cost water filter (iron removal, potable water)",
+        "whereImplemented": "Urban/peri-urban low-income settlement (India; concept transferable to Jharkhand towns)",
+        "implementer": "Community organization + technical support; managed by local youth/children groups",
+        "outcome": "Improved access to potable water at community scale; reduced iron & better taste/acceptance",
+        "transferability": "Medium",
+        "sources": [
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S006",
+        "problemTitle": "Unsafe drinking water in schools/households",
+        "solutionTitle": "School-based safe water & hygiene intervention (purifiers + education)",
+        "whereImplemented": "Southern India pilot (concept transferable to Jharkhand schools)",
+        "implementer": "UNICEF + Hindustan Unilever Limited",
+        "outcome": "Increased awareness & some increase in purifier ownership; sustained household behavior change limited without ongoing engagement",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S001",
+        "problemTitle": "Rural drinking-water contamination",
+        "solutionTitle": "Community-scale water treatment / safe-water & hygiene intervention",
+        "whereImplemented": "Rural & school settings in India (incl. Jharkhand-relevant contexts)",
+        "implementer": "Govt/NGO/university partnerships (e.g., UNICEF, HUL, community orgs)",
+        "outcome": "Improved drinking-water quality in schools/communities; mixed long-term household adoption without sustained support",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/",
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      }
+    ],
+    "routingReason": "Selected State Water and Sanitation Mission (SWSM) Jharkhand because it is linked to the relevant Water solution/problem: Unreliable piped supply in small towns, Smart water meters & IoT leak detection.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-15T10:21:42.301Z"
+  },
+  {
+    "id": "1789467940549",
+    "description": "no water supply in our area from last 5 days",
+    "location": "ranchi , ward 4 ",
+    "imageUrl": null,
+    "category": "Water",
+    "summary": "no water supply in our area from last 5 days",
+    "confidence": 0.85,
+    "duplicateFound": true,
+    "duplicateOf": "1789467702301",
+    "duplicateCount": 0,
+    "assignedCollege": "State Water and Sanitation Mission (SWSM) Jharkhand",
+    "recommendedSolutions": [
+      {
+        "id": "S010",
+        "problemTitle": "Contaminated drinking water in settlements",
+        "solutionTitle": "Community-managed low-cost water filter (iron removal, potable water)",
+        "whereImplemented": "Urban/peri-urban low-income settlement (India; concept transferable to Jharkhand towns)",
+        "implementer": "Community organization + technical support; managed by local youth/children groups",
+        "outcome": "Improved access to potable water at community scale; reduced iron & better taste/acceptance",
+        "transferability": "Medium",
+        "sources": [
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S006",
+        "problemTitle": "Unsafe drinking water in schools/households",
+        "solutionTitle": "School-based safe water & hygiene intervention (purifiers + education)",
+        "whereImplemented": "Southern India pilot (concept transferable to Jharkhand schools)",
+        "implementer": "UNICEF + Hindustan Unilever Limited",
+        "outcome": "Increased awareness & some increase in purifier ownership; sustained household behavior change limited without ongoing engagement",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S001",
+        "problemTitle": "Rural drinking-water contamination",
+        "solutionTitle": "Community-scale water treatment / safe-water & hygiene intervention",
+        "whereImplemented": "Rural & school settings in India (incl. Jharkhand-relevant contexts)",
+        "implementer": "Govt/NGO/university partnerships (e.g., UNICEF, HUL, community orgs)",
+        "outcome": "Improved drinking-water quality in schools/communities; mixed long-term household adoption without sustained support",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/",
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      }
+    ],
+    "routingReason": "Selected State Water and Sanitation Mission (SWSM) Jharkhand because it is linked to the relevant Water solution/problem: Unreliable piped supply in small towns, Smart water meters & IoT leak detection.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-15T10:25:40.549Z"
+  },
+  {
+    "id": "1789473075496",
+    "description": "no water supply in our area from last 5 days",
+    "location": "ranchi , ward 4",
+    "imageUrl": null,
+    "category": "Water",
+    "summary": "no water supply in our area from last 5 days",
+    "confidence": 0.85,
+    "duplicateFound": true,
+    "duplicateOf": "1789467702301",
+    "duplicateCount": 0,
+    "assignedCollege": "State Water and Sanitation Mission (SWSM) Jharkhand",
+    "recommendedSolutions": [
+      {
+        "id": "S010",
+        "problemTitle": "Contaminated drinking water in settlements",
+        "solutionTitle": "Community-managed low-cost water filter (iron removal, potable water)",
+        "whereImplemented": "Urban/peri-urban low-income settlement (India; concept transferable to Jharkhand towns)",
+        "implementer": "Community organization + technical support; managed by local youth/children groups",
+        "outcome": "Improved access to potable water at community scale; reduced iron & better taste/acceptance",
+        "transferability": "Medium",
+        "sources": [
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S006",
+        "problemTitle": "Unsafe drinking water in schools/households",
+        "solutionTitle": "School-based safe water & hygiene intervention (purifiers + education)",
+        "whereImplemented": "Southern India pilot (concept transferable to Jharkhand schools)",
+        "implementer": "UNICEF + Hindustan Unilever Limited",
+        "outcome": "Increased awareness & some increase in purifier ownership; sustained household behavior change limited without ongoing engagement",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S001",
+        "problemTitle": "Rural drinking-water contamination",
+        "solutionTitle": "Community-scale water treatment / safe-water & hygiene intervention",
+        "whereImplemented": "Rural & school settings in India (incl. Jharkhand-relevant contexts)",
+        "implementer": "Govt/NGO/university partnerships (e.g., UNICEF, HUL, community orgs)",
+        "outcome": "Improved drinking-water quality in schools/communities; mixed long-term household adoption without sustained support",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/",
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      }
+    ],
+    "routingReason": "Selected State Water and Sanitation Mission (SWSM) Jharkhand because it is linked to the relevant Water solution/problem: Unreliable piped supply in small towns, Smart water meters & IoT leak detection.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-15T11:51:15.496Z"
+  },
+  {
+    "id": "1789473388409",
+    "description": "books schools tak nahi pahuch rahi hai",
+    "location": "ranchi , ward 4",
+    "imageUrl": null,
+    "category": "Education",
+    "summary": "books schools tak nahi pahuch rahi hai",
+    "confidence": 0.85,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 1,
+    "assignedCollege": "School Education and Literacy Department, Govt of Jharkhand",
+    "recommendedSolutions": [],
+    "routingReason": "Selected School Education and Literacy Department, Govt of Jharkhand because it is linked to the relevant Education solution/problem: Learning poverty in government schools, Samagra Shiksha Abhiyan.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-15T11:56:28.409Z"
+  },
+  {
+    "id": "1789473768857",
+    "description": "schools m book nhi pahuch rahi hai",
+    "location": "ranchi , ward 4",
+    "imageUrl": null,
+    "category": "Education",
+    "summary": "schools m book nhi pahuch rahi hai",
+    "confidence": 0.85,
+    "duplicateFound": true,
+    "duplicateOf": "1789473388409",
+    "duplicateCount": 0,
+    "assignedCollege": "School Education and Literacy Department, Govt of Jharkhand",
+    "recommendedSolutions": [],
+    "routingReason": "Selected School Education and Literacy Department, Govt of Jharkhand because it is linked to the relevant Education solution/problem: Learning poverty in government schools, Samagra Shiksha Abhiyan.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-15T12:02:48.857Z"
+  },
+  {
+    "id": "1789475384476",
+    "description": "no water supply since last 5 days",
+    "location": "jamshedpur",
+    "imageUrl": null,
+    "category": "Water",
+    "summary": "no water supply since last 5 days",
+    "confidence": 0.85,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 0,
+    "assignedCollege": "State Water and Sanitation Mission (SWSM) Jharkhand",
+    "recommendedSolutions": [
+      {
+        "id": "S010",
+        "problemTitle": "Contaminated drinking water in settlements",
+        "solutionTitle": "Community-managed low-cost water filter (iron removal, potable water)",
+        "whereImplemented": "Urban/peri-urban low-income settlement (India; concept transferable to Jharkhand towns)",
+        "implementer": "Community organization + technical support; managed by local youth/children groups",
+        "outcome": "Improved access to potable water at community scale; reduced iron & better taste/acceptance",
+        "transferability": "Medium",
+        "sources": [
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S006",
+        "problemTitle": "Unsafe drinking water in schools/households",
+        "solutionTitle": "School-based safe water & hygiene intervention (purifiers + education)",
+        "whereImplemented": "Southern India pilot (concept transferable to Jharkhand schools)",
+        "implementer": "UNICEF + Hindustan Unilever Limited",
+        "outcome": "Increased awareness & some increase in purifier ownership; sustained household behavior change limited without ongoing engagement",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S001",
+        "problemTitle": "Rural drinking-water contamination",
+        "solutionTitle": "Community-scale water treatment / safe-water & hygiene intervention",
+        "whereImplemented": "Rural & school settings in India (incl. Jharkhand-relevant contexts)",
+        "implementer": "Govt/NGO/university partnerships (e.g., UNICEF, HUL, community orgs)",
+        "outcome": "Improved drinking-water quality in schools/communities; mixed long-term household adoption without sustained support",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/",
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      }
+    ],
+    "routingReason": "Selected State Water and Sanitation Mission (SWSM) Jharkhand because it is linked to the relevant Water solution/problem: Unreliable piped supply in small towns, Smart water meters & IoT leak detection.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-09-15T12:29:44.476Z"
+  },
+  {
+    "id": "1789475718038",
+    "description": "there is a pothole on the main road",
+    "location": "ranchi",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "there is a pothole on the main road",
+    "confidence": 0.2,
+    "duplicateFound": false,
+    "duplicateOf": null,
+    "duplicateCount": 1,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-15T12:35:18.039Z"
+  },
+  {
+    "id": "1789476505117",
+    "description": "there is a pothole on the main road",
+    "location": "ranchi",
+    "imageUrl": null,
+    "category": "Other",
+    "summary": "there is a pothole on the main road",
+    "confidence": 0.2,
+    "duplicateFound": true,
+    "duplicateOf": "1789475718038",
+    "duplicateCount": 0,
+    "assignedCollege": null,
+    "recommendedSolutions": [],
+    "routingReason": "AI confidence is below the required threshold. Manual review required.",
+    "humanReview": true,
+    "status": "under_review",
+    "createdAt": "2026-09-15T12:48:25.118Z"
+  },
+  {
+    "id": "1794315706440",
+    "description": "no water supply",
+    "location": "Ranchi",
+    "imageUrl": null,
+    "category": "Water",
+    "summary": "no water supply",
+    "confidence": 0.85,
+    "duplicateFound": true,
+    "duplicateOf": "1789467702301",
+    "duplicateCount": 0,
+    "assignedCollege": "State Water and Sanitation Mission (SWSM) Jharkhand",
+    "recommendedSolutions": [
+      {
+        "id": "S010",
+        "problemTitle": "Contaminated drinking water in settlements",
+        "solutionTitle": "Community-managed low-cost water filter (iron removal, potable water)",
+        "whereImplemented": "Urban/peri-urban low-income settlement (India; concept transferable to Jharkhand towns)",
+        "implementer": "Community organization + technical support; managed by local youth/children groups",
+        "outcome": "Improved access to potable water at community scale; reduced iron & better taste/acceptance",
+        "transferability": "Medium",
+        "sources": [
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S006",
+        "problemTitle": "Unsafe drinking water in schools/households",
+        "solutionTitle": "School-based safe water & hygiene intervention (purifiers + education)",
+        "whereImplemented": "Southern India pilot (concept transferable to Jharkhand schools)",
+        "implementer": "UNICEF + Hindustan Unilever Limited",
+        "outcome": "Increased awareness & some increase in purifier ownership; sustained household behavior change limited without ongoing engagement",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/"
+        ],
+        "linkedInstitutions": []
+      },
+      {
+        "id": "S001",
+        "problemTitle": "Rural drinking-water contamination",
+        "solutionTitle": "Community-scale water treatment / safe-water & hygiene intervention",
+        "whereImplemented": "Rural & school settings in India (incl. Jharkhand-relevant contexts)",
+        "implementer": "Govt/NGO/university partnerships (e.g., UNICEF, HUL, community orgs)",
+        "outcome": "Improved drinking-water quality in schools/communities; mixed long-term household adoption without sustained support",
+        "transferability": "Medium",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3042810/",
+          "https://www.witpress.com/Secure/elibrary/papers/WS11/WS11025FU1.pdf"
+        ],
+        "linkedInstitutions": []
+      }
+    ],
+    "routingReason": "Selected State Water and Sanitation Mission (SWSM) Jharkhand because it is linked to the relevant Water solution/problem: Unreliable piped supply in small towns, Smart water meters & IoT leak detection.",
+    "humanReview": false,
+    "status": "assigned",
+    "createdAt": "2026-11-10T13:01:46.440Z"
+  }
+]
